@@ -66,7 +66,3 @@ _The aim is to showcase the ability to perform data cleaning, querying, and anal
 **Next Steps**
 
 Connect the MySQL database to Power BI or Tableau for interactive dashboards.
-
-Perform sentiment or textual analysis on the description column using Python or R.
-
-Explore predictive analytics to forecast content trends or audience preferences.
