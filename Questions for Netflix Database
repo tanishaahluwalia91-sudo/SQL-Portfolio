@@ -1,0 +1,60 @@
+🟢 LEVEL 1 — BASIC INSIGHTS (Data Familiarity)
+Goal: Demonstrate that you can explore and clean the dataset.
+Count the total number of titles available on Netflix.
+How many movies and TV shows are there separately?
+List all unique countries available in the dataset.
+Find the earliest and latest year of release.
+Retrieve all titles released in 2024 or later.
+Find all shows where the rating is “TV-MA”.
+Show all titles added in the last 6 months.
+List the top 10 longest movie titles by character length.
+Find missing director or cast values (i.e., NULL entries).
+Get the count of shows for each rating category.
+
+--> Filtering, DISTINCT, COUNT, GROUP BY, string functions, NULL handling.
+🟡 LEVEL 2 — INTERMEDIATE (Grouping + String Queries)
+Goal: Analyze trends and categories for business insight.
+Find the top 10 most common directors.
+Which country has produced the most Netflix content?
+Find the number of titles released each year (trend over time).
+What are the top 5 genres (listed_in) on Netflix?
+Count how many titles belong to more than one genre.
+List all shows that feature the word “Love” in their title.
+How many titles were added each month in 2023?
+Find all movies where “Leonardo DiCaprio” appears in the cast.
+Count how many titles have a duration over “90 min” (for movies).
+Get all TV shows that have more than 5 seasons.
+
+--> GROUP BY + COUNT, string matching (LIKE), date extraction (YEAR, MONTH), conditional aggregation.
+🔵 LEVEL 3 — ADVANCED (Analytics & Subqueries)
+Goal: Show you can perform data analysis and storytelling.
+Which country has the highest ratio of movies to TV shows?
+Find the top 5 most common actor appearances across all shows.
+Which directors have the most diverse genres (listed_in count)?
+Identify the year with the highest number of new additions.
+For each rating, find the average release year of titles.
+Find the oldest title available on Netflix for each country.
+Retrieve all shows that were added to Netflix more than 5 years after release.
+Find countries that added more than 100 titles in a single year.
+Determine how many titles per country feature “Action” or “Drama”.
+Rank countries by their number of Netflix Originals (if your data marks them in description or listed_in).
+
+--> Subqueries, conditional aggregation, ranking (via window functions), text pattern extraction.
+🔴 LEVEL 4 — PORTFOLIO-WORTHY BUSINESS CASES
+Goal: Create story-driven insights that resemble dashboard KPIs or reports.
+🎯 Case 1: Content Expansion Strategy
+How has the number of new titles added evolved year-over-year?
+Which countries have grown the fastest in content additions since 2020?
+Which genres dominate recent additions?
+🎯 Case 2: Regional Diversity
+Compare the genre preferences between US, India, and UK.
+Which regions contribute most to Netflix’s “Action” vs “Romantic” categories?
+What’s the share of non-US content over time?
+🎯 Case 3: Director & Actor Influence
+Who are the top 10 most frequent directors across all titles?
+Which actors appear in both TV shows and movies?
+Which actors consistently feature in “Crime” or “Drama” genres?
+🎯 Case 4: Age Ratings & Audience Analysis
+Distribution of titles across ratings (TV-MA, PG-13, etc.)
+Which genres are most common for each age rating?
+Has Netflix added more mature content over time?
