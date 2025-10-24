@@ -1,0 +1,2 @@
+select * from netflix_data;
+
